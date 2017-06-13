@@ -1,4 +1,4 @@
-# rt_debug
+﻿# rt_debug
 将jdk的源码进行重新编译，用于局部变量的调试
 
 ## 重编译原因
@@ -14,9 +14,11 @@ jdk提供的rt.jar进行debug调试时不能查看到局部变量的值，这是
 4. 复制rt.jar到编译后的classes目录下并打包成rt_debug.jar
 
 
-## 直接使用
+## 懒人专用
 
-### window
+> 可以直接跳过上面的步骤，直接生成rt_debug.jar包
+
+#### window 环境
 
 1. 将 [rt_debug.bat](./rt_debug/rt_debug.bat) 放到jdk安装目录下
 2. 双击运行，会自动生成rt_debug.jar包
